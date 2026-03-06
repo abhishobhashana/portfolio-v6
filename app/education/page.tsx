@@ -3,7 +3,8 @@ import HeroIntro from "@/components/Animation/HeroIntro";
 
 export const metadata = createSEO({
   title: "Education",
-  description: "Learn more about my experience, skills, and background.",
+  description:
+    "Explore the educational background of Abhi Shobhashana, including degrees, and relevant coursework",
 });
 
 export default function page() {

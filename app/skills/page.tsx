@@ -4,7 +4,8 @@ import { createSEO } from "@/lib/seo";
 
 export const metadata = createSEO({
   title: "Skills",
-  description: "Learn more about my experience, skills, and background.",
+  description:
+    "Explore the professional skills and technologies that Abhi Shobhashana specializes in.",
 });
 
 export default function page() {

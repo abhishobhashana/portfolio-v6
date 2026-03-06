@@ -7,5 +7,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "https://abhishobhashana.vercel.app/projects", priority: 0.5 },
     { url: "https://abhishobhashana.vercel.app/skills", priority: 0.5 },
     { url: "https://abhishobhashana.vercel.app/education", priority: 0.5 },
+    { url: "https://abhishobhashana.vercel.app/resume.pdf", priority: 0.5 },
   ];
 }

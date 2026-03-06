@@ -6,7 +6,8 @@ import { RiJavascriptFill } from "react-icons/ri";
 
 export const metadata = createSEO({
   title: "Experience",
-  description: "Learn more about my experience, skills, and background.",
+  description:
+    "View professional experience and work history of Abhi Shobhashana",
 });
 
 export default function page() {
