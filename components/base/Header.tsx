@@ -13,7 +13,6 @@ export default function Header() {
     { id: "projects", name: "Projects", href: "/projects" },
     { id: "skills", name: "Skills", href: "/skills" },
     { id: "education", name: "Education", href: "/education" },
-    { id: "resume", name: "Resume", href: "/resume" },
   ];
 
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -86,6 +85,15 @@ export default function Header() {
                 <p className="cursor-pointer text-xs font-light">{item.name}</p>
               </Link>
             ))}
+
+            <a
+              className="cursor-pointer text-xs font-light"
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </div>
         </nav>
 
@@ -185,6 +193,29 @@ export default function Header() {
                     </motion.p>
                   </Link>
                 ))}
+
+                <motion.a
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      filter: "blur(6px)",
+                    },
+                    show: {
+                      opacity: 1,
+                      filter: "blur(0px)",
+                      transition: {
+                        duration: 0.5,
+                        ease: [0.25, 0.1, 0.25, 1],
+                      },
+                    },
+                  }}
+                  className="text-[26px] font-medium"
+                  href="/resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </motion.a>
               </motion.div>
             </motion.div>
           )}

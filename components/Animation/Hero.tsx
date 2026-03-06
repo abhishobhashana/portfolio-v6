@@ -40,13 +40,13 @@ export default function Hero() {
 
           <div>
             <p className="text-indigo-400 text-xl font-semibold">
-              Senior Frontend Engineer with 5+ years of experience leading
-              frontend architecture for large-scale React and Vue applications.
+              Senior Frontend Engineer with 5+ years building scalable React.js
+              and Vue.js applications.
             </p>
 
             <p className="text-indigo-400 text-xl font-semibold mt-4">
-              Proven track record of improving performance, building resilient
-              UI systems, and delivering scalable real-time platforms.
+              Expert in frontend architecture, performance optimization,
+              real-time systems, and leading engineering teams.
             </p>
           </div>
 
