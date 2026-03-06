@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useInView } from "framer-motion";
+import { motion, useInView, Variants } from "framer-motion";
 import * as React from "react";
 
 export function TextFade({
@@ -19,7 +19,7 @@ export function TextFade({
   const ref = React.useRef(null);
   const isInView = useInView(ref, { once: true });
 
-  const FADE = {
+  const FADE: Variants = {
     hidden: {
       opacity: 0,
       y: direction === "down" ? -18 : 18,
