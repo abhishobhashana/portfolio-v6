@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { BsFillPlusCircleFill } from "react-icons/bs";
-import Modal from "../base/Modal";
+import Modal from "./base/Modal";
 
 export default function Projects({ projects }: any) {
   const [selectedProject, setSelectedProject] = useState<any>(null);

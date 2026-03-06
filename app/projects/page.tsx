@@ -1,6 +1,5 @@
 import HeroIntro from "@/components/Animation/HeroIntro";
-// import Table from "@/components/base/Table";
-import Projects from "@/components/Sections/Projects";
+import Projects from "@/components/Projects";
 import { createSEO } from "@/lib/seo";
 
 export const metadata = createSEO({
