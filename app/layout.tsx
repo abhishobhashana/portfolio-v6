@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "react.js",
     "web development",
   ],
-  metadataBase: new URL("https://abhishobhashana.vercel.app"),
+  metadataBase: new URL("https://abhishobhashanav6.vercel.app"),
   verification: {
     google: "AnduTPvERUUcVPeBxD28apaqOoc3pvEucDXZcKalmVk",
   },
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: "Abhi Shobhashana",
     description:
       "Experienced React.js Developer specializing in building fast, scalable, and modern web applications.",
-    url: "https://abhishobhashana.vercel.app",
+    url: "https://abhishobhashanav6.vercel.app",
     siteName: "Abhi Shobhashana",
     images: [
       {

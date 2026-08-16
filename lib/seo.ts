@@ -9,7 +9,7 @@ type SEOProps = {
 };
 
 const SITE_NAME = "Abhi Shobhashana";
-const SITE_URL = "https://abhishobhashana.vercel.app";
+const SITE_URL = "https://abhishobhashanav6.vercel.app";
 const DEFAULT_IMAGE = "/og-image.png";
 
 export function createSEO({
